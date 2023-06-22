@@ -104,6 +104,10 @@ footer {
     padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
     background-color:  rgba(255, 255, 255, 0.35);
 }
+
+footer a {
+    color: blue;
+}
 /***** End of General Styling *****/
 
 /***** Navbar Styling *****/
@@ -429,7 +433,7 @@ button:hover, .form-container .btn:hover {
 /* Styling for close button on hover */
 .form-container .cancel:hover {
     color: white;
-    background-color: darkred;
+    background-color: #87c470;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: black;
